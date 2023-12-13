@@ -1,0 +1,79 @@
+[0.030s] Invoking command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names
+[0.109s] -- The C compiler identification is GNU 9.4.0
+[0.165s] -- The CXX compiler identification is GNU 9.4.0
+[0.170s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.251s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.326s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.408s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.529s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.529s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.717s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.763s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.817s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.945s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.950s] -- Looking for pthread.h
+[1.023s] -- Looking for pthread.h - found
+[1.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.094s] -- Looking for pthread_create in pthreads
+[1.147s] -- Looking for pthread_create in pthreads - not found
+[1.147s] -- Looking for pthread_create in pthread
+[1.208s] -- Looking for pthread_create in pthread - found
+[1.210s] -- Found Threads: TRUE  
+[1.304s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.383s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.384s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp05_names/include>
+[1.384s] -- Configured cppcheck exclude dirs and/or files: 
+[1.385s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.385s] -- Configured cpplint exclude dirs and/or files: 
+[1.386s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.386s] -- Added test 'lint_cmake' to check CMake code style
+[1.387s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.388s] -- Added test 'uncrustify' to check C / C++ code style
+[1.388s] -- Configured uncrustify additional arguments: 
+[1.388s] -- Added test 'xmllint' to check XML markup files
+[1.392s] -- Configuring done
+[1.398s] -- Generating done
+[1.400s] -- Build files have been written to: /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names
+[1.407s] Invoked command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names
+[1.409s] Invoking command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names -- -j128 -l128
+[1.448s] [35m[1mScanning dependencies of target demo01_names[0m
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[1.487s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[1.542s] [100%] Built target demo01_names
+[1.553s] Invoked command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names -- -j128 -l128
+[1.585s] Invoking command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names
+[1.593s] -- Install configuration: ""
+[1.593s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names
+[1.593s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[1.593s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch
+[1.593s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[1.594s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[1.594s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[1.594s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[1.594s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.sh
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.bash
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.sh
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[1.595s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.dsv
+[1.596s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[1.596s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[1.596s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[1.596s] -- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.xml
+[1.599s] Invoked command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp05_names

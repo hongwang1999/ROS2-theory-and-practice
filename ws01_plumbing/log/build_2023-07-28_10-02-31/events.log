@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000250] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000270] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000289] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000438] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000657] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000775] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000994] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001027] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001045] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001069] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.002653] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.002694] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.002727] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002759] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.002792] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo'), ('turtlesim', '/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim')])}
+[0.002839] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.035889] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.036614] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.037310] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise', '--', '-j128', '-l128'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[0.069245] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.094242] (cpp07_exercise) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099697] (-) TimerEvent: {}
+[0.199928] (-) TimerEvent: {}
+[0.258495] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.288094] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.291378] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299992] (-) TimerEvent: {}
+[0.400207] (-) TimerEvent: {}
+[0.400420] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.446754] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.448608] (cpp07_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500288] (-) TimerEvent: {}
+[0.536487] (cpp07_exercise) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[0.600376] (-) TimerEvent: {}
+[0.635876] (cpp07_exercise) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.689574] (cpp07_exercise) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.700451] (-) TimerEvent: {}
+[0.744374] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.781799] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.800534] (-) TimerEvent: {}
+[0.858155] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.859158] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.859437] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/include>\n'}
+[0.859511] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.860270] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.860343] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.860738] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.861196] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.861611] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.862294] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.862381] (cpp07_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.862695] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.865762] (cpp07_exercise) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.885387] (cpp07_exercise) StdoutLine: {'line': b'-- Generating done\n'}
+[0.886989] (cpp07_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise\n'}
+[0.900607] (-) TimerEvent: {}
+[0.912926] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exer03_client\x1b[0m\n'}
+[0.913086] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exer02_server\x1b[0m\n'}
+[0.914969] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exer01_pub_sub\x1b[0m\n'}
+[0.945352] (cpp07_exercise) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o\x1b[0m\n'}
+[0.952603] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o\x1b[0m\n'}
+[0.952712] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o\x1b[0m\n'}
+[1.000712] (-) TimerEvent: {}
+[1.101004] (-) TimerEvent: {}
+[1.201299] (-) TimerEvent: {}
+[1.301594] (-) TimerEvent: {}
+[1.401883] (-) TimerEvent: {}
+[1.502176] (-) TimerEvent: {}
+[1.602476] (-) TimerEvent: {}
+[1.702775] (-) TimerEvent: {}
+[1.803090] (-) TimerEvent: {}
+[1.903390] (-) TimerEvent: {}
+[2.003700] (-) TimerEvent: {}
+[2.104019] (-) TimerEvent: {}
+[2.204341] (-) TimerEvent: {}
+[2.304647] (-) TimerEvent: {}
+[2.404963] (-) TimerEvent: {}
+[2.505263] (-) TimerEvent: {}
+[2.605560] (-) TimerEvent: {}
+[2.617106] (cpp07_exercise) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable exer02_server\x1b[0m\n'}
+[2.618216] (cpp07_exercise) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable exer03_client\x1b[0m\n'}
+[2.705657] (-) TimerEvent: {}
+[2.732670] (cpp07_exercise) StdoutLine: {'line': b'[ 83%] Built target exer02_server\n'}
+[2.732908] (cpp07_exercise) StdoutLine: {'line': b'[ 83%] Built target exer03_client\n'}
+[2.805758] (-) TimerEvent: {}
+[2.906066] (-) TimerEvent: {}
+[3.006372] (-) TimerEvent: {}
+[3.106673] (-) TimerEvent: {}
+[3.206988] (-) TimerEvent: {}
+[3.307272] (-) TimerEvent: {}
+[3.407560] (-) TimerEvent: {}
+[3.507855] (-) TimerEvent: {}
+[3.608149] (-) TimerEvent: {}
+[3.708456] (-) TimerEvent: {}
+[3.808758] (-) TimerEvent: {}
+[3.909062] (-) TimerEvent: {}
+[4.009346] (-) TimerEvent: {}
+[4.109655] (-) TimerEvent: {}
+[4.209961] (-) TimerEvent: {}
+[4.310248] (-) TimerEvent: {}
+[4.410541] (-) TimerEvent: {}
+[4.510842] (-) TimerEvent: {}
+[4.611137] (-) TimerEvent: {}
+[4.711434] (-) TimerEvent: {}
+[4.811830] (-) TimerEvent: {}
+[4.912123] (-) TimerEvent: {}
+[5.012409] (-) TimerEvent: {}
+[5.112804] (-) TimerEvent: {}
+[5.213273] (-) TimerEvent: {}
+[5.313578] (-) TimerEvent: {}
+[5.413874] (-) TimerEvent: {}
+[5.514163] (-) TimerEvent: {}
+[5.614466] (-) TimerEvent: {}
+[5.714777] (-) TimerEvent: {}
+[5.815088] (-) TimerEvent: {}
+[5.915396] (-) TimerEvent: {}
+[6.015687] (-) TimerEvent: {}
+[6.115983] (-) TimerEvent: {}
+[6.216270] (-) TimerEvent: {}
+[6.316565] (-) TimerEvent: {}
+[6.416873] (-) TimerEvent: {}
+[6.517184] (-) TimerEvent: {}
+[6.589987] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer01_pub_sub\x1b[0m\n'}
+[6.617278] (-) TimerEvent: {}
+[6.717562] (-) TimerEvent: {}
+[6.817883] (-) TimerEvent: {}
+[6.853485] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer01_pub_sub\n'}
+[6.863482] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[6.892854] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[6.902933] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[6.912824] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.913048] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[6.914928] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""\n'}
+[6.915025] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server\n'}
+[6.915867] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server" to ""\n'}
+[6.915966] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client\n'}
+[6.916797] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client" to ""\n'}
+[6.916896] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[6.916988] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[6.917077] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[6.917160] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[6.917936] (-) TimerEvent: {}
+[6.918087] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[6.918172] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[6.918262] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[6.918346] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[6.918449] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[6.918536] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[6.918630] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[6.918697] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[6.918793] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[6.919974] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[6.920083] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[6.920169] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[6.920236] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[6.921719] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[7.010320] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[7.011101] (-) EventReactorShutdown: {}

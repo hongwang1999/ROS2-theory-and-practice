@@ -1,0 +1,61 @@
+[0.041s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener -- -j128 -l128
+[0.068s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.267s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.465s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.559s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.623s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.945s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.953s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.958s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[0.989s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.062s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.070s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.070s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws02_tools/src/cpp04_tf_listener/include>
+[1.070s] -- Configured cppcheck exclude dirs and/or files: 
+[1.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.078s] -- Configured cpplint exclude dirs and/or files: 
+[1.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.082s] -- Added test 'lint_cmake' to check CMake code style
+[1.083s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.092s] -- Added test 'uncrustify' to check C / C++ code style
+[1.092s] -- Configured uncrustify additional arguments: 
+[1.094s] -- Added test 'xmllint' to check XML markup files
+[1.097s] -- Configuring done
+[1.113s] -- Generating done
+[1.115s] -- Build files have been written to: /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener
+[1.142s] [35m[1mScanning dependencies of target demo02_msg_filter[0m
+[1.144s] [35m[1mScanning dependencies of target demo01_tf_listener[0m
+[1.169s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[1.174s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o[0m
+[2.818s] [ 75%] [32m[1mLinking CXX executable demo02_msg_filter[0m
+[2.936s] [ 75%] Built target demo02_msg_filter
+[6.463s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[6.736s] [100%] Built target demo01_tf_listener
+[6.747s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener -- -j128 -l128
+[6.787s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener
+[6.794s] -- Install configuration: ""
+[6.794s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[6.796s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[6.796s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter
+[6.797s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""
+[6.797s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[6.797s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[6.797s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[6.797s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[6.797s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[6.798s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[6.798s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[6.798s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[6.798s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[6.798s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[6.802s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener

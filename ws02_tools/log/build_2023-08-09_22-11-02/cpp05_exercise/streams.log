@@ -1,0 +1,31 @@
+[0.041s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise -- -j128 -l128
+[0.090s] [35m[1mScanning dependencies of target exer01_spawn[0m
+[0.105s] [ 33%] Built target exer03_tf_listener
+[0.105s] [ 66%] Built target exer02_tf_broadcaster
+[0.114s] [ 83%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[2.624s] [100%] [32m[1mLinking CXX executable exer01_spawn[0m
+[2.784s] [100%] Built target exer01_spawn
+[2.796s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise -- -j128 -l128
+[2.840s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise
+[2.848s] -- Install configuration: ""
+[2.848s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn
+[2.849s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn" to ""
+[2.849s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[2.849s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[2.849s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch
+[2.849s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[2.849s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[2.850s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[2.850s] -- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[2.854s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp05_exercise

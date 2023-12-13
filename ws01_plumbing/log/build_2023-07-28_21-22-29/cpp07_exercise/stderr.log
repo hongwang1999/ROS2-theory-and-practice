@@ -1,0 +1,10 @@
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:30:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   30 |   float [01;35m[Kgoal_x[m[K = atof(argv[1]);
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:31:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   31 |   float [01;35m[Kgoal_y[m[K = atof(argv[2]);
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   32 |   float [01;35m[Kgoal_theta[m[K = atof(argv[3]);
+      |         [01;35m[K^~~~~~~~~~[m[K

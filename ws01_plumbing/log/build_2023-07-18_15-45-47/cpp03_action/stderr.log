@@ -1,0 +1,8 @@
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:67:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   67 |       rclcpp_action::CancelResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:75:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   75 |       void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

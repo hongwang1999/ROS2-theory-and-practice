@@ -1,0 +1,6 @@
+/haha:
+  ros__parameters:
+    background_b: 100
+    background_g: 50
+    background_r: 55
+    use_sim_time: false

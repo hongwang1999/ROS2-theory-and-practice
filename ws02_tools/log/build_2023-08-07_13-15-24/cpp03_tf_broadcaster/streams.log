@@ -1,0 +1,64 @@
+[0.036s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster
+[0.094s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.219s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.220s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.289s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.361s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.646s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.736s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.856s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.861s] -- Looking for pthread.h
+[0.932s] -- Looking for pthread.h - found
+[0.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.001s] -- Looking for pthread_create in pthreads
+[1.055s] -- Looking for pthread_create in pthreads - not found
+[1.055s] -- Looking for pthread_create in pthread
+[1.120s] -- Looking for pthread_create in pthread - found
+[1.121s] -- Found Threads: TRUE  
+[1.210s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.275s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.594s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.650s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.725s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.726s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.726s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/include>
+[1.726s] -- Configured cppcheck exclude dirs and/or files: 
+[1.727s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.727s] -- Configured cpplint exclude dirs and/or files: 
+[1.728s] -- Added test 'lint_cmake' to check CMake code style
+[1.729s] -- Added test 'uncrustify' to check C / C++ code style
+[1.729s] -- Configured uncrustify additional arguments: 
+[1.729s] -- Added test 'xmllint' to check XML markup files
+[1.733s] -- Configuring done
+[1.734s] CMake Error at CMakeLists.txt:28 (add_executable):
+[1.734s]   Cannot find source file:
+[1.734s] 
+[1.734s]     src/demo03_static_tf_broadcaster.cpp
+[1.734s] 
+[1.734s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.734s]   .hpp .hxx .in .txx
+[1.734s] 
+[1.734s] 
+[1.735s] CMake Error at CMakeLists.txt:28 (add_executable):
+[1.735s]   No SOURCES given to target: demo03_static_tf_broadcaster
+[1.736s] 
+[1.736s] 
+[1.736s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.743s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster

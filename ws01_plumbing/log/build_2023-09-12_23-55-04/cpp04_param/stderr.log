@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param/CMakeCache.txt is different than the directory /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp04_param where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp04_param" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:354：cmake_check_build_system] 错误 1

@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000508] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000575] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000688] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000935] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001045] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001246] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001267] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.001291] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001308] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.002778] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.002818] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.002850] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.002880] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.002909] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.002940] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002974] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.033707] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.036959] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.037041] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim', '--', '-j128', '-l128'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[0.098161] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.099916] (-) TimerEvent: {}
+[0.100069] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.125044] (turtlesim) StdoutLine: {'line': b'[ 32%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.125279] (turtlesim) StdoutLine: {'line': b'[ 32%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.125362] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.126365] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.126592] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.153569] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.171937] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.189793] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim_node\x1b[0m\n'}
+[0.193006] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.198924] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target mimic\n'}
+[0.199402] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[0.199978] (-) TimerEvent: {}
+[0.202240] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.226259] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[0.247371] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[0.253794] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.254057] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.254504] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300101] (-) TimerEvent: {}
+[0.400428] (-) TimerEvent: {}
+[0.500753] (-) TimerEvent: {}
+[0.601098] (-) TimerEvent: {}
+[0.701460] (-) TimerEvent: {}
+[0.801909] (-) TimerEvent: {}
+[0.902251] (-) TimerEvent: {}
+[1.002600] (-) TimerEvent: {}
+[1.102967] (-) TimerEvent: {}
+[1.203328] (-) TimerEvent: {}
+[1.303670] (-) TimerEvent: {}
+[1.403998] (-) TimerEvent: {}
+[1.504328] (-) TimerEvent: {}
+[1.604688] (-) TimerEvent: {}
+[1.705030] (-) TimerEvent: {}
+[1.805385] (-) TimerEvent: {}
+[1.905748] (-) TimerEvent: {}
+[2.006095] (-) TimerEvent: {}
+[2.106442] (-) TimerEvent: {}
+[2.206782] (-) TimerEvent: {}
+[2.307148] (-) TimerEvent: {}
+[2.407492] (-) TimerEvent: {}
+[2.507825] (-) TimerEvent: {}
+[2.608181] (-) TimerEvent: {}
+[2.708556] (-) TimerEvent: {}
+[2.808893] (-) TimerEvent: {}
+[2.909278] (-) TimerEvent: {}
+[3.009613] (-) TimerEvent: {}
+[3.109940] (-) TimerEvent: {}
+[3.210257] (-) TimerEvent: {}
+[3.310583] (-) TimerEvent: {}
+[3.410919] (-) TimerEvent: {}
+[3.511242] (-) TimerEvent: {}
+[3.611570] (-) TimerEvent: {}
+[3.711893] (-) TimerEvent: {}
+[3.812212] (-) TimerEvent: {}
+[3.912542] (-) TimerEvent: {}
+[4.012864] (-) TimerEvent: {}
+[4.113218] (-) TimerEvent: {}
+[4.213576] (-) TimerEvent: {}
+[4.313923] (-) TimerEvent: {}
+[4.414272] (-) TimerEvent: {}
+[4.514616] (-) TimerEvent: {}
+[4.614965] (-) TimerEvent: {}
+[4.715311] (-) TimerEvent: {}
+[4.815644] (-) TimerEvent: {}
+[4.915978] (-) TimerEvent: {}
+[5.016335] (-) TimerEvent: {}
+[5.116670] (-) TimerEvent: {}
+[5.217019] (-) TimerEvent: {}
+[5.317366] (-) TimerEvent: {}
+[5.417719] (-) TimerEvent: {}
+[5.518060] (-) TimerEvent: {}
+[5.618404] (-) TimerEvent: {}
+[5.718750] (-) TimerEvent: {}
+[5.819087] (-) TimerEvent: {}
+[5.919437] (-) TimerEvent: {}
+[6.019784] (-) TimerEvent: {}
+[6.120147] (-) TimerEvent: {}
+[6.220488] (-) TimerEvent: {}
+[6.320827] (-) TimerEvent: {}
+[6.421187] (-) TimerEvent: {}
+[6.521546] (-) TimerEvent: {}
+[6.621885] (-) TimerEvent: {}
+[6.722231] (-) TimerEvent: {}
+[6.822576] (-) TimerEvent: {}
+[6.922906] (-) TimerEvent: {}
+[7.023250] (-) TimerEvent: {}
+[7.123631] (-) TimerEvent: {}
+[7.223956] (-) TimerEvent: {}
+[7.324270] (-) TimerEvent: {}
+[7.424585] (-) TimerEvent: {}
+[7.524898] (-) TimerEvent: {}
+[7.625222] (-) TimerEvent: {}
+[7.725542] (-) TimerEvent: {}
+[7.825854] (-) TimerEvent: {}
+[7.926181] (-) TimerEvent: {}
+[8.026508] (-) TimerEvent: {}
+[8.126833] (-) TimerEvent: {}
+[8.227174] (-) TimerEvent: {}
+[8.327511] (-) TimerEvent: {}
+[8.427830] (-) TimerEvent: {}
+[8.528152] (-) TimerEvent: {}
+[8.628525] (-) TimerEvent: {}
+[8.728859] (-) TimerEvent: {}
+[8.829207] (-) TimerEvent: {}
+[8.929562] (-) TimerEvent: {}
+[9.029909] (-) TimerEvent: {}
+[9.130371] (-) TimerEvent: {}
+[9.230730] (-) TimerEvent: {}
+[9.245468] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[9.330855] (-) TimerEvent: {}
+[9.431203] (-) TimerEvent: {}
+[9.531565] (-) TimerEvent: {}
+[9.631910] (-) TimerEvent: {}
+[9.732357] (-) TimerEvent: {}
+[9.832716] (-) TimerEvent: {}
+[9.933030] (-) TimerEvent: {}
+[10.033292] (-) TimerEvent: {}
+[10.133635] (-) TimerEvent: {}
+[10.208513] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[10.220498] (turtlesim) CommandEnded: {'returncode': 0}
+[10.233745] (-) TimerEvent: {}
+[10.334068] (-) TimerEvent: {}
+[10.392921] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[10.403812] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[10.416342] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.416576] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[10.416687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.416781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.416878] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.416971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[10.417067] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.417182] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[10.417252] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[10.417364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[10.417434] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[10.417530] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[10.417627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[10.417723] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[10.417823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[10.417894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[10.417989] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.418119] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[10.418185] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.418255] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[10.418332] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[10.418454] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[10.418537] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[10.418605] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.418695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[10.418764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.418832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[10.418899] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[10.418996] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[10.419090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[10.419169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[10.419234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[10.419302] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[10.419416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[10.419488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[10.419556] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[10.419626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[10.419730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[10.419812] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[10.419877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[10.419946] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[10.420034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[10.420118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[10.420186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[10.420293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[10.420370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[10.420452] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[10.420522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[10.420619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[10.420687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[10.420776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[10.420866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[10.421054] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[10.421852] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[10.421941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.422030] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.422142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.422208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.422282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[10.422391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.422494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.422564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.422634] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.422734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.422800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.422867] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[10.422968] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[10.423030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[10.423091] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.423157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[10.423242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[10.423868] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.423951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.424053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.424123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.424228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.424308] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.424406] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[10.424477] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.424546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.424645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.424727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.424808] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[10.424888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.424958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.425028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.425097] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[10.425165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.425257] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.425332] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.425420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.425481] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.426002] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.426081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.426161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.426244] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.426343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.426427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[10.426495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[10.426593] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[10.426685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[10.426753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.426821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.426926] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.427012] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[10.427089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.427158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.427226] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[10.427294] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[10.427406] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[10.427472] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[10.427562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[10.427626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[10.427694] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.427761] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[10.427851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[10.427912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[10.427992] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[10.428649] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.428763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[10.429347] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[10.429448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.429544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.429609] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[10.429707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.429776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[10.429865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[10.429955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[10.430019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.430106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[10.430171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.430237] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[10.430334] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[10.430403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[10.430468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[10.430562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[10.430644] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[10.430709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[10.430795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.430860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[10.430964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.431030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[10.431095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[10.431185] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[10.431248] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[10.431312] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[10.431408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[10.431487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[10.431550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[10.431631] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[10.431693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[10.431791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[10.431851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[10.431913] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[10.432002] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[10.432065] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[10.432157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[10.432234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[10.432305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[10.432376] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[10.432456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim\n'}
+[10.432542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action\n'}
+[10.432602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.432665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.432758] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[10.432839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg\n'}
+[10.432900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.432963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433051] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[10.433112] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[10.433265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv\n'}
+[10.433335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.433422] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[10.433571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[10.433696] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[10.433855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.433918] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[10.433994] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.434056] (-) TimerEvent: {}
+[10.434205] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[10.434276] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[10.434718] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.434829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[10.435508] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[10.435603] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[10.435711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[10.435914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[10.481483] (turtlesim) StdoutLine: {'line': b"Compiling '/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py'...\n"}
+[10.485196] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[10.485317] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[10.485429] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[10.485518] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[10.485640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[10.485727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[10.485828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[10.485919] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[10.486007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[10.486094] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[10.486204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[10.486281] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[10.486381] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[10.486475] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[10.486564] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[10.486644] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[10.486728] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[10.486810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[10.486888] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[10.486977] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[10.487060] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[10.487141] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[10.487387] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.488232] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.488478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.489355] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.489552] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.490412] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.490516] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__python.so\n'}
+[10.491118] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/libturtlesim__python.so" to ""\n'}
+[10.491246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[10.491418] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[10.491541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[10.491698] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[10.491813] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[10.491933] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[10.492039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[10.492150] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[10.492266] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[10.492386] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[10.492496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[10.492607] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[10.492721] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[10.492833] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[10.492935] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[10.493045] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[10.493156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[10.493268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[10.493386] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[10.493536] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[10.493648] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[10.493755] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[10.493866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[10.493976] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[10.494090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[10.494202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[10.494391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[10.496613] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[10.496708] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[10.497430] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[10.497522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square\n'}
+[10.498216] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[10.498303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic\n'}
+[10.498992] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[10.499081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images\n'}
+[10.499163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[10.499246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[10.499341] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[10.499428] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[10.499513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[10.499600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[10.499688] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/launch\n'}
+[10.499775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[10.499914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[10.500075] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[10.500205] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[10.500326] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[10.500441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[10.500559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[10.500669] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[10.500778] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[10.500894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[10.501007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[10.501127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/package.dsv\n'}
+[10.501349] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[10.501602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[10.501735] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.501906] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.502030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.502191] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[10.502339] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.502515] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[10.502688] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.502812] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.502964] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[10.503088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.503201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[10.503314] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.503439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.503550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.503667] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.503780] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.503887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.504007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[10.504098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[10.504202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/turtlesim/share/turtlesim/package.xml\n'}
+[10.507024] (turtlesim) CommandEnded: {'returncode': 0}
+[10.538637] (-) TimerEvent: {}
+[10.639035] (-) TimerEvent: {}
+[10.744659] (-) TimerEvent: {}
+[10.778728] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[10.779710] (-) EventReactorShutdown: {}

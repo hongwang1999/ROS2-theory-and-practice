@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000235] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000253] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000403] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000473] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000638] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000751] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.000966] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000996] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001014] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001040] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001056] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.002580] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.002621] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002638] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.002672] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.002708] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.030441] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.031167] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.031809] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo', '--', '-j128', '-l128'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[0.061152] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.061346] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.084670] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.084814] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099736] (-) TimerEvent: {}
+[0.199997] (-) TimerEvent: {}
+[0.252197] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255662] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300108] (-) TimerEvent: {}
+[0.391778] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400168] (-) TimerEvent: {}
+[0.442078] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500269] (-) TimerEvent: {}
+[0.600580] (-) TimerEvent: {}
+[0.666559] (base_interfaces_demo) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:63 (message):\n'}
+[0.666806] (base_interfaces_demo) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.666883] (base_interfaces_demo) StderrLine: {'line': b'  base_interfaces_demo --arguments-file\n'}
+[0.666948] (base_interfaces_demo) StderrLine: {'line': b'  /home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter__arguments__base_interfaces_demo.json\n'}
+[0.667008] (base_interfaces_demo) StderrLine: {'line': b'  --output-dir\n'}
+[0.667070] (base_interfaces_demo) StderrLine: {'line': b'  /home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo\n'}
+[0.667131] (base_interfaces_demo) StderrLine: {'line': b'  --output-file\n'}
+[0.667192] (base_interfaces_demo) StderrLine: {'line': b'  /home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo.idls)\n'}
+[0.667252] (base_interfaces_demo) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.667313] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.667375] (base_interfaces_demo) StderrLine: {'line': b"  Error processing 'floate32 y' of 'base_interfaces_demo/Distance_Request':\n"}
+[0.667442] (base_interfaces_demo) StderrLine: {'line': b"  ''floate32' is an invalid message name.  It should have the pattern\n"}
+[0.667503] (base_interfaces_demo) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.667560] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.667622] (base_interfaces_demo) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.667682] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.667743] (base_interfaces_demo) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.667812] (base_interfaces_demo) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.667875] (base_interfaces_demo) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.667935] (base_interfaces_demo) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.667993] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.668116] (base_interfaces_demo) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.668194] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.668269] (base_interfaces_demo) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.668331] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.668389] (base_interfaces_demo) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.668452] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.668511] (base_interfaces_demo) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.668572] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[0.668629] (base_interfaces_demo) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.668687] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[0.668744] (base_interfaces_demo) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.668811] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[0.668873] (base_interfaces_demo) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.668933] (base_interfaces_demo) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[0.668990] (base_interfaces_demo) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.669047] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.669103] (base_interfaces_demo) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'floate32' is an invalid message\n"}
+[0.669167] (base_interfaces_demo) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.669228] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.669286] (base_interfaces_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.669345] (base_interfaces_demo) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.669404] (base_interfaces_demo) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[0.669461] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.669519] (base_interfaces_demo) StderrLine: {'line': b'\n'}
+[0.669578] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.669648] (base_interfaces_demo) StdoutLine: {'line': b'See also "/home/hw_learn/ws_ros2/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/CMakeOutput.log".\n'}
+[0.674297] (base_interfaces_demo) StderrLine: {'line': b'make: *** [Makefile:1228: cmake_check_build_system] Error 1\n'}
+[0.676696] (base_interfaces_demo) CommandEnded: {'returncode': 2}
+[0.700697] (-) TimerEvent: {}
+[0.804106] (-) TimerEvent: {}
+[0.808513] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 2}
+[0.818955] (-) EventReactorShutdown: {}

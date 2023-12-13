@@ -1,0 +1,67 @@
+[0.042s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster
+[0.057s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.263s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.298s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.561s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.631s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.963s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.021s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.096s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.096s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/include>
+[1.096s] -- Configured cppcheck exclude dirs and/or files: 
+[1.104s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.104s] -- Configured cpplint exclude dirs and/or files: 
+[1.106s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.108s] -- Added test 'lint_cmake' to check CMake code style
+[1.110s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.119s] -- Added test 'uncrustify' to check C / C++ code style
+[1.119s] -- Configured uncrustify additional arguments: 
+[1.120s] -- Added test 'xmllint' to check XML markup files
+[1.124s] -- Configuring done
+[1.146s] -- Generating done
+[1.148s] -- Build files have been written to: /home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster
+[1.156s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster
+[1.158s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster -- -j128 -l128
+[1.196s] [35m[1mScanning dependencies of target demo03_point_tf_broadcaster[0m
+[1.196s] [35m[1mScanning dependencies of target demo02_dynamic_tf_broadcaster[0m
+[1.196s] [35m[1mScanning dependencies of target demo01_static_tf_broadcaster[0m
+[1.232s] [ 33%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[1.233s] [ 33%] [32mBuilding CXX object CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o[0m
+[1.233s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[5.068s] [ 66%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[5.328s] [ 66%] Built target demo01_static_tf_broadcaster
+[5.506s] [ 83%] [32m[1mLinking CXX executable demo03_point_tf_broadcaster[0m
+[5.720s] [ 83%] Built target demo03_point_tf_broadcaster
+[7.609s] [100%] [32m[1mLinking CXX executable demo02_dynamic_tf_broadcaster[0m
+[7.933s] [100%] Built target demo02_dynamic_tf_broadcaster
+[7.945s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster -- -j128 -l128
+[7.987s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster
+[7.994s] -- Install configuration: ""
+[7.994s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[7.995s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[7.995s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[7.997s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""
+[7.997s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo03_point_tf_broadcaster
+[7.998s] -- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo03_point_tf_broadcaster" to ""
+[7.998s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[7.998s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[7.998s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[7.999s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[8.000s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[8.000s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[8.000s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[8.000s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[8.003s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp03_tf_broadcaster

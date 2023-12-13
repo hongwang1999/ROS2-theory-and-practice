@@ -1,0 +1,6 @@
+[0.009s] Invoking command in '/home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param -- -j24 -l24
+[0.015s] CMake Error: The current CMakeCache.txt directory /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param/CMakeCache.txt is different than the directory /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp04_param where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.022s] CMake Error: The source directory "/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp04_param" does not exist.
+[0.022s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.023s] make: *** [Makefile:354：cmake_check_build_system] 错误 1
+[0.025s] Invoked command in '/home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param -- -j24 -l24

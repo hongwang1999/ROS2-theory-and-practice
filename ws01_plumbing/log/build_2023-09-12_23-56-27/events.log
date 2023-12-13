@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.001025] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001072] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.001128] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001161] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001368] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001433] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001465] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.001733] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001757] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001783] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.002052] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.002074] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.002099] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.002334] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002403] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.002432] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/hw/桌面/ws_ros2/ws01_plumbing/install/base_interfaces_demo')])}
+[0.002483] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.047051] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 1}
+[0.057637] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 41%] Built target turtlesim__rosidl_typesupport_c
+[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 71%] Built target turtlesim
+[ 72%] Built target turtlesim__py
+[ 76%] Built target mimic
+[ 76%] Built target draw_square
+[ 78%] Built target turtle_teleop_key
+[ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[ 88%] Built target turtlesim__python
+[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:[m[K In member function ‘[01m[Kbool turtlesim::Turtle::update(double, QPainter&, const QImage&, qreal, qreal)[m[K’:
+[01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:273:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klin_vel_x[m[K’ was not declared in this scope; did you mean ‘[01m[Klin_vel_x_[m[K’?
+  273 |   p->linear_velocity = [01;31m[Klin_vel_x[m[K;
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                        [32m[Klin_vel_x_[m[K
+make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:80: CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

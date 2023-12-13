@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000474] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000596] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000802] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.000819] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.000835] (-) JobUnselected: {'identifier': 'py03_tf_broadcaster'}
+[0.000849] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.000865] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.000884] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.037357] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.038097] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[0.038849] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener', '--', '-j128', '-l128'], 'cwd': '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('OLDPWD', '/home/hw_learn/ws_ros2/ws02_tools/src'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ef66ad02-e7ea-42b1-8f95-ca09cfcd805f.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install:/home/hw_learn/ws_ros2/ws02_tools/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7a3e3f5c-e713-4d55-b923-240fe41493da.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X15","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-614758123c.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install/cpp03_tf_broadcaster:/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X15'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install/cpp03_tf_broadcaster:/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[0.068357] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.093605] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099930] (-) TimerEvent: {}
+[0.200152] (-) TimerEvent: {}
+[0.267639] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.297976] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300217] (-) TimerEvent: {}
+[0.300912] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400333] (-) TimerEvent: {}
+[0.417166] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.465806] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.467942] (cpp04_tf_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500411] (-) TimerEvent: {}
+[0.559506] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[0.600502] (-) TimerEvent: {}
+[0.623613] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[0.700597] (-) TimerEvent: {}
+[0.800854] (-) TimerEvent: {}
+[0.901164] (-) TimerEvent: {}
+[0.945698] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[0.954284] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[0.959072] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[0.989753] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.001227] (-) TimerEvent: {}
+[1.062408] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.070773] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.070997] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws02_tools/src/cpp04_tf_listener/include>\n'}
+[1.071067] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.078755] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.078850] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.080003] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.082542] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.083859] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.092880] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.093073] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.094295] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.098115] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101318] (-) TimerEvent: {}
+[1.114129] (cpp04_tf_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[1.115843] (cpp04_tf_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener\n'}
+[1.142795] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo02_msg_filter\x1b[0m\n'}
+[1.144434] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo01_tf_listener\x1b[0m\n'}
+[1.170080] (cpp04_tf_listener) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[1.174880] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o\x1b[0m\n'}
+[1.201391] (-) TimerEvent: {}
+[1.301668] (-) TimerEvent: {}
+[1.402059] (-) TimerEvent: {}
+[1.502489] (-) TimerEvent: {}
+[1.602819] (-) TimerEvent: {}
+[1.703139] (-) TimerEvent: {}
+[1.803513] (-) TimerEvent: {}
+[1.903797] (-) TimerEvent: {}
+[2.004109] (-) TimerEvent: {}
+[2.104400] (-) TimerEvent: {}
+[2.204696] (-) TimerEvent: {}
+[2.304986] (-) TimerEvent: {}
+[2.405286] (-) TimerEvent: {}
+[2.505586] (-) TimerEvent: {}
+[2.605897] (-) TimerEvent: {}
+[2.706196] (-) TimerEvent: {}
+[2.806504] (-) TimerEvent: {}
+[2.819204] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_msg_filter\x1b[0m\n'}
+[2.906596] (-) TimerEvent: {}
+[2.936738] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] Built target demo02_msg_filter\n'}
+[3.006675] (-) TimerEvent: {}
+[3.106926] (-) TimerEvent: {}
+[3.207214] (-) TimerEvent: {}
+[3.307532] (-) TimerEvent: {}
+[3.407828] (-) TimerEvent: {}
+[3.508123] (-) TimerEvent: {}
+[3.608436] (-) TimerEvent: {}
+[3.708759] (-) TimerEvent: {}
+[3.809087] (-) TimerEvent: {}
+[3.909408] (-) TimerEvent: {}
+[4.009709] (-) TimerEvent: {}
+[4.110007] (-) TimerEvent: {}
+[4.210311] (-) TimerEvent: {}
+[4.310614] (-) TimerEvent: {}
+[4.410928] (-) TimerEvent: {}
+[4.511222] (-) TimerEvent: {}
+[4.611533] (-) TimerEvent: {}
+[4.711851] (-) TimerEvent: {}
+[4.812181] (-) TimerEvent: {}
+[4.912482] (-) TimerEvent: {}
+[5.012791] (-) TimerEvent: {}
+[5.113110] (-) TimerEvent: {}
+[5.213403] (-) TimerEvent: {}
+[5.313670] (-) TimerEvent: {}
+[5.413910] (-) TimerEvent: {}
+[5.514167] (-) TimerEvent: {}
+[5.614440] (-) TimerEvent: {}
+[5.714730] (-) TimerEvent: {}
+[5.815034] (-) TimerEvent: {}
+[5.915349] (-) TimerEvent: {}
+[6.015639] (-) TimerEvent: {}
+[6.115894] (-) TimerEvent: {}
+[6.216179] (-) TimerEvent: {}
+[6.316508] (-) TimerEvent: {}
+[6.416793] (-) TimerEvent: {}
+[6.464214] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_tf_listener\x1b[0m\n'}
+[6.516898] (-) TimerEvent: {}
+[6.617189] (-) TimerEvent: {}
+[6.717511] (-) TimerEvent: {}
+[6.736647] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] Built target demo01_tf_listener\n'}
+[6.747953] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[6.775043] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'install'}
+[6.786961] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener'], 'cwd': '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('OLDPWD', '/home/hw_learn/ws_ros2/ws02_tools/src'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ef66ad02-e7ea-42b1-8f95-ca09cfcd805f.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install:/home/hw_learn/ws_ros2/ws02_tools/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7a3e3f5c-e713-4d55-b923-240fe41493da.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X15","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-614758123c.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install/cpp03_tf_broadcaster:/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X15'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws02_tools/src/cpp03_tf_broadcaster/install/cpp03_tf_broadcaster:/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[6.795005] (cpp04_tf_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.795177] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener\n'}
+[6.797046] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""\n'}
+[6.797191] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter\n'}
+[6.797617] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""\n'}
+[6.797736] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener\n'}
+[6.797931] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener\n'}
+[6.798040] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh\n'}
+[6.798158] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv\n'}
+[6.798260] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh\n'}
+[6.798366] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv\n'}
+[6.798464] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash\n'}
+[6.798588] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh\n'}
+[6.798691] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh\n'}
+[6.798762] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv\n'}
+[6.798864] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv\n'}
+[6.799003] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener\n'}
+[6.799099] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake\n'}
+[6.799212] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake\n'}
+[6.799281] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml\n'}
+[6.800998] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[6.817978] (-) TimerEvent: {}
+[6.888345] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 0}
+[6.889299] (-) EventReactorShutdown: {}

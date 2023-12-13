@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target demo01_talker_str[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 62%] Built target demo03_talker_stu
+[ 62%] Built target demo02_listener_str
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[ 87%] Built target demo01_talker_str

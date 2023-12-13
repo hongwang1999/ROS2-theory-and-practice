@@ -1,0 +1,2 @@
+Invoking command in '/home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param -- -j24 -l24
+Invoked command in '/home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hw/桌面/ws_ros2/ws01_plumbing/build/cpp04_param -- -j24 -l24

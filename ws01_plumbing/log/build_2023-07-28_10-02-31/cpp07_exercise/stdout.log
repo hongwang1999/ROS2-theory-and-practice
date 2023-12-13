@@ -1,0 +1,64 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found base_interfaces_demo: 0.0.0 (/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hw_learn/ws_ros2/ws01_plumbing/src/cpp07_exercise/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hw_learn/ws_ros2/ws01_plumbing/build/cpp07_exercise
+[35m[1mScanning dependencies of target exer03_client[0m
+[35m[1mScanning dependencies of target exer02_server[0m
+[35m[1mScanning dependencies of target exer01_pub_sub[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable exer02_server[0m
+[ 83%] [32m[1mLinking CXX executable exer03_client[0m
+[ 83%] Built target exer02_server
+[ 83%] Built target exer03_client
+[100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[100%] Built target exer01_pub_sub
+-- Install configuration: ""
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server" to ""
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+-- Set runtime path of "/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client" to ""
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+-- Installing: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+-- Up-to-date: /home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml

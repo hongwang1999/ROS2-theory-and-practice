@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000481] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000601] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000800] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000816] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000832] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000846] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000859] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000872] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000888] (tutorails_plumbing) JobQueued: {'identifier': 'tutorails_plumbing', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo'), ('cpp04_param', '/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param'), ('py04_param', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py04_param'), ('cpp01_topic', '/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic'), ('cpp02_service', '/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service'), ('cpp03_action', '/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action'), ('py01_topic', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic'), ('py02_service', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py02_service'), ('py03_action', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py03_action')])}
+[0.000921] (tutorails_plumbing) JobStarted: {'identifier': 'tutorails_plumbing'}
+[0.051021] (tutorails_plumbing) JobEnded: {'identifier': 'tutorails_plumbing', 'rc': 1}
+[0.061369] (-) EventReactorShutdown: {}

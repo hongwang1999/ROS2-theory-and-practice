@@ -1,0 +1,66 @@
+[0.038s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch
+[0.095s] -- The C compiler identification is GNU 9.4.0
+[0.149s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working C compiler: /usr/bin/cc
+[0.221s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.222s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.297s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.382s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.514s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.706s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.760s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.808s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.944s] -- Looking for pthread.h
+[1.020s] -- Looking for pthread.h - found
+[1.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.118s] -- Looking for pthread_create in pthreads
+[1.180s] -- Looking for pthread_create in pthreads - not found
+[1.180s] -- Looking for pthread_create in pthread
+[1.251s] -- Looking for pthread_create in pthread - found
+[1.252s] -- Found Threads: TRUE  
+[1.354s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.443s] -- Added test 'lint_cmake' to check CMake code style
+[1.445s] -- Added test 'xmllint' to check XML markup files
+[1.449s] -- Configuring done
+[1.451s] -- Generating done
+[1.452s] -- Build files have been written to: /home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch
+[1.461s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake /home/hw_learn/ws_ros2/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch
+[1.464s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch -- -j128 -l128
+[1.506s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch -- -j128 -l128
+[1.537s] Invoking command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch
+[1.544s] -- Install configuration: ""
+[1.544s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch
+[1.544s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py
+[1.544s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml
+[1.544s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yaml
+[1.545s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[1.548s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[1.549s] -- Installing: /home/hw_learn/ws_ros2/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[1.553s] Invoked command in '/home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --install /home/hw_learn/ws_ros2/ws02_tools/build/cpp01_launch

@@ -1,0 +1,21 @@
+[0.587s] Invoking command in '/home/hw_learn/ws_ros2/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy PYTHONPATH=/home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/prefix_override:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/build install --record /home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed
+[0.772s] running egg_info
+[0.772s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.772s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.772s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.772s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.772s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.803s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.803s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.803s] running build
+[0.803s] running build_py
+[0.804s] running install
+[0.804s] running install_lib
+[0.806s] running install_data
+[0.806s] running install_egg_info
+[0.808s] removing '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages/py01_topic-0.0.0-py3.8.egg-info' (and everything under it)
+[0.808s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages/py01_topic-0.0.0-py3.8.egg-info
+[0.809s] running install_scripts
+[0.826s] Installing demo01_talker_str_py script to /home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.826s] writing list of installed files to '/home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/install.log'
+[0.851s] Invoked command in '/home/hw_learn/ws_ros2/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy PYTHONPATH=/home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/prefix_override:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/build install --record /home/hw_learn/ws_ros2/ws01_plumbing/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed

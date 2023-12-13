@@ -1,0 +1,28 @@
+[0.035s] Invoking command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim -- -j128 -l128
+[0.094s] [  1%] Built target turtlesim__cpp
+[0.096s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.120s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.121s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.122s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.123s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.123s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.148s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.167s] [ 71%] Built target turtlesim
+[0.188s] [ 72%] Built target turtlesim__py
+[0.195s] [ 76%] Built target mimic
+[0.195s] [ 76%] Built target draw_square
+[0.196s] [ 78%] Built target turtle_teleop_key
+[0.208s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[0.219s] [ 88%] Built target turtlesim__python
+[0.248s] [ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.248s] [ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.248s] [ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[2.170s] [01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:[m[K In member function ‘[01m[Kbool turtlesim::Turtle::update(double, QPainter&, const QImage&, qreal, qreal)[m[K’:
+[2.171s] [01m[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:273:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klin_vel_x[m[K’ was not declared in this scope; did you mean ‘[01m[Klin_vel_x_[m[K’?
+[2.171s]   273 |   p->linear_velocity = [01;31m[Klin_vel_x[m[K;
+[2.171s]       |                        [01;31m[K^~~~~~~~~[m[K
+[2.171s]       |                        [32m[Klin_vel_x_[m[K
+[4.681s] make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:80: CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o] Error 1
+[4.681s] make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2
+[4.682s] make: *** [Makefile:141: all] Error 2
+[4.684s] Invoked command in '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo /usr/bin/cmake --build /home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim -- -j128 -l128

@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000697] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000795] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000905] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001119] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001228] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001425] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001445] (-) JobUnselected: {'identifier': 'cpp07_exercise'}
+[0.001460] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001473] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001497] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001511] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001526] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.001541] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.001564] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.001580] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.003080] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.034411] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.034889] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.035541] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim', '--', '-j128', '-l128'], 'cwd': '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('NV_LIBCUBLAS_VERSION', '11.6.5.2-1'), ('HOSTNAME', 'pnc-algo-dev'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('GIT_ASKPASS', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib:/home/hw_learn/dev_ws/install/learning_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/rviz_assimp_vendor/lib:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1+cuda11.4'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-66b3c21e-bad0-4bab-8bee-567dd2dc69bb.sock'), ('RC_ROOT', '/home/admin/pdc'), ('_UID', '1000'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\\033[01;31m\\]\\u\\[\\033[00m\\]@\\[\\033[01;32m\\]\\h\\[\\033[00m\\][\\[\\033[01;33m\\]\\t\\[\\033[00m\\]]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install:/home/hw_learn/dev_ws/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b4d04ae7-ac15-4f44-876e-df7bc8547682.sock'), ('TRT_VERSION', '8.4.1-1+cuda11.6'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.4.148-1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/foxy/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('_GROUP', 'admin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1.0'), ('_USER', 'admin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e5d7f111d2.sock'), ('TERM_PROGRAM', 'vscode'), ('LANGURE', 'en_us.UTF-8'), ('ROS_DOMAIN_ID', '81'), ('AMENT_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_interface:/home/hw_learn/dev_ws/install/learning_gazebo:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('_GID', '1000'), ('PWD', '/home/hw_learn/ws_ros2/ws01_plumbing/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('NV_CUDNN_PACKAGE_VERSION', '8.4.1.50-1+cuda11.6'), ('PYTHONPATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_urdf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_topic/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_tf/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_service/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_qos/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_pkg_python/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_parameter/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_node/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_launch/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_action/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_interface/lib/python3.8/site-packages:/home/hw_learn/dev_ws/install/learning_gazebo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Shanghai'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hw_learn/ws_ros2/ws01_plumbing/install/tutorails_plumbing:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp07_exercise:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp05_names:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp04_param:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp03_action:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp02_service:/home/hw_learn/ws_ros2/ws01_plumbing/install/cpp01_topic:/home/hw_learn/ws_ros2/ws01_plumbing/install/base_interfaces_demo:/home/hw_learn/dev_ws/install/learning_pkg_c:/home/hw_learn/dev_ws/install/learning_interface:/opt/ros/foxy:/home/hw_learn/ws_ros2/ws01_plumbing/install/py01_topic:/home/hw_learn/dev_ws/install/learning_urdf:/home/hw_learn/dev_ws/install/learning_topic:/home/hw_learn/dev_ws/install/learning_tf:/home/hw_learn/dev_ws/install/learning_service:/home/hw_learn/dev_ws/install/learning_qos:/home/hw_learn/dev_ws/install/learning_pkg_python:/home/hw_learn/dev_ws/install/learning_parameter:/home/hw_learn/dev_ws/install/learning_node:/home/hw_learn/dev_ws/install/learning_launch:/home/hw_learn/dev_ws/install/learning_action:/home/hw_learn/dev_ws/install/learning_gazebo')]), 'shell': False}
+[0.096530] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.098877] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.099926] (-) TimerEvent: {}
+[0.123441] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.123883] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.125076] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.125901] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.125975] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.151023] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.169720] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.191135] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.197875] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[0.197971] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[0.198578] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.199985] (-) TimerEvent: {}
+[0.210698] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[0.222031] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__python\n'}
+[0.251274] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.251469] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.251556] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.300056] (-) TimerEvent: {}
+[0.400321] (-) TimerEvent: {}
+[0.500619] (-) TimerEvent: {}
+[0.600942] (-) TimerEvent: {}
+[0.701250] (-) TimerEvent: {}
+[0.801536] (-) TimerEvent: {}
+[0.901830] (-) TimerEvent: {}
+[1.002124] (-) TimerEvent: {}
+[1.102438] (-) TimerEvent: {}
+[1.202740] (-) TimerEvent: {}
+[1.303040] (-) TimerEvent: {}
+[1.403337] (-) TimerEvent: {}
+[1.503632] (-) TimerEvent: {}
+[1.603926] (-) TimerEvent: {}
+[1.704237] (-) TimerEvent: {}
+[1.804502] (-) TimerEvent: {}
+[1.904799] (-) TimerEvent: {}
+[2.005087] (-) TimerEvent: {}
+[2.105402] (-) TimerEvent: {}
+[2.173402] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool turtlesim::Turtle::update(double, QPainter&, const QImage&, qreal, qreal)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.173650] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hw_learn/ws_ros2/ws01_plumbing/src/turtlesim/src/turtle.cpp:273:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klin_vel_x\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klin_vel_x_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.173718] (turtlesim) StderrLine: {'line': b'  273 |   p->linear_velocity = \x1b[01;31m\x1b[Klin_vel_x\x1b[m\x1b[K;\n'}
+[2.173775] (turtlesim) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.173828] (turtlesim) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Klin_vel_x_\x1b[m\x1b[K\n'}
+[2.205494] (-) TimerEvent: {}
+[2.305771] (-) TimerEvent: {}
+[2.406073] (-) TimerEvent: {}
+[2.506384] (-) TimerEvent: {}
+[2.606738] (-) TimerEvent: {}
+[2.707046] (-) TimerEvent: {}
+[2.807348] (-) TimerEvent: {}
+[2.907635] (-) TimerEvent: {}
+[3.007926] (-) TimerEvent: {}
+[3.108229] (-) TimerEvent: {}
+[3.208522] (-) TimerEvent: {}
+[3.308815] (-) TimerEvent: {}
+[3.409134] (-) TimerEvent: {}
+[3.509437] (-) TimerEvent: {}
+[3.609728] (-) TimerEvent: {}
+[3.710027] (-) TimerEvent: {}
+[3.810340] (-) TimerEvent: {}
+[3.910649] (-) TimerEvent: {}
+[4.010968] (-) TimerEvent: {}
+[4.111332] (-) TimerEvent: {}
+[4.211625] (-) TimerEvent: {}
+[4.311921] (-) TimerEvent: {}
+[4.412232] (-) TimerEvent: {}
+[4.512530] (-) TimerEvent: {}
+[4.612836] (-) TimerEvent: {}
+[4.683852] (turtlesim) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:80: CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o] Error 1\n'}
+[4.684162] (turtlesim) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/turtlesim_node.dir/all] Error 2\n'}
+[4.684557] (turtlesim) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.687021] (turtlesim) CommandEnded: {'returncode': 2}
+[4.712936] (-) TimerEvent: {}
+[4.813254] (-) TimerEvent: {}
+[4.891135] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[4.901571] (-) EventReactorShutdown: {}
